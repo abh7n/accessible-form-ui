@@ -1,0 +1,110 @@
+body {
+    margin: 30px;
+    padding: 50px;
+    border: 2px black solid;
+    width: 500px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.mail {
+    border-color: red;
+    color: red;
+}
+
+#email::placeholder {
+    color: red;
+}
+
+.emailnote {
+    color: red;
+}
+
+.pass1 {
+    position: relative;
+}
+
+.img1 {
+    position: absolute;
+    top: 238px;
+    left: 230px;
+    height: 15px;
+    width: 15px;
+}
+
+.pass2 {
+    position: relative;
+}
+
+.img2 {
+    position: absolute;
+    top: 295px;
+    left: 230px;
+    height: 15px;
+    width: 15px;
+}
+
+.update {
+    margin: 30px;
+    height: 50px;
+    width: 120px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+
+.box2 {
+    position: relative;
+}
+
+.circle1 {
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 6px black solid;
+    border-bottom: none;
+    position: absolute;
+    transform: rotate(270deg);
+    top: 10px;
+
+}
+
+.circle2 {
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 3px black solid;
+    border-bottom: none;
+    position: absolute;
+    left: 55px;
+    top: 2px;
+    transform: rotate(90deg);
+    top: 12px;
+
+}
+
+.percent {
+    position: absolute;
+    left: 60px;
+    top: 1px;
+    font-size: x-large;
+}
+
+.roadmap {
+    padding: 10px;
+    border-radius: 20px;
+    background-color:blanchedalmond;
+    width: 250px;
+}
+
+.striked {
+    text-decoration: line-through;
+    color: rgb(125, 125, 125);
+}
